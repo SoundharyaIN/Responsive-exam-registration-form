@@ -1,0 +1,44 @@
+input[type=text],input[type=tel],input[type=email],input[type=date],input[type=number], select{
+    
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    box-sizing: border-box;
+}
+
+body{
+	
+	font-size:14pt;
+	background:url("https://goo.gl/8acf4e");
+	background-size: cover;
+	background-position:fixed;
+	background-repeat:no-repeat;
+	
+}
+p1{
+	font-style:italic;
+}
+p1,p2,.a{
+	color:#D6EAF8;
+}
+	
+::-webkit-input-placeholder {
+   text-align: center;
+}
+h1{
+	text-align: center;
+	color:#3498DB;
+}
+h2{
+	
+	color:#3498DB;
+}
+p{
+	font-style:italic;
+	font-size:20pt;
+	text-align: center;
+	color:#D6EAF8;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Forms</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css"><!-- bootstrap style sheet inclusion-->
+<link rel="stylesheet" type="text/css" href="1.css"><!-- My unique style sheet inclusion-->
+<script type="text/javascript" src="1.js"><!-- Javascript inclusion-->
+</script>
+</head>
+<body>	
+<div class="container"><!-- "Class-1" inclusion-->
+<h1>A short tale and a little effort from Soundharya</h1>
+<p1>Hi buddy,&nbsp<br></p1>
+<p2>Learning new stuffs is always awesome. Isn’t it?
+I just built an exam registration form because I have always wondered how it’s been done by my computer science friends for longtime. 
+Now, I am happy that I could challenge them to create the best things.
+The important feature of this form is it could be viewed in most appropriate manner in all the devices ranging from Desktop to mobile phones.
+Actually, it is done with "Bootstrap".To check this feature, you can resize the browser window and see the changes.Hope you like it!
+</p2>
+<h2>Exam registration form</h2>
+<form>
+	<div class="container-fluid"><!-- "Class-2" inclusion.It also makes you to view the content depending upon the browser window size.-->
+		<div class="col-md-6 a"><!-- "Class-3" inclusion-->
+			First Name</div>
+		<div class="col-md-6">
+			<input type="text" name="firstname" id="a" onblur="FirstName();" required><span id="kirthi1" required></div><!-- Validation of the first name and Input type-"text" -->
+		<div class="col-md-6 a">
+			Last Name</div>
+		<div class="col-md-6">
+			<input type="text" name="lastname" id="b" onblur="LastName();" required><span id="kirthi2" required></div><!-- Validation of the last name-->
+		<div class="col-md-6 a">
+			E-mail id</div>
+		<div class="col-md-6">	
+			<input type="email" class="text" name="email" id="amf-input-email_18" value="" placeholder="you@example.com" maxlength="255" onblur="Email(this.value)"></div><!-- Validation of the e-mail id and Input type-"email" -->
+	
+		<div class="col-md-6 a">	
+			Gender</div>
+		<div class="col-md-6 a">	
+			<input type="radio" name="gender" value="Male">Male
+			<input type="radio" name="gender" value="Female">Female</div><!-- Input type-"radio" -->
+		<div class="col-md-6 a">
+			Phone number</div>
+		<div class="col-md-6">	
+			<input type="tel" name="phoneNum"></div>
+		<div class="col-md-6 a">
+			Date of birth</div>
+		<div class="col-md-6">	
+			<input type="date" name="date" required></div><!-- Input type-"date" -->
+	
+		<div class="col-md-6 a">
+			Parent's name</div>
+		<div class="col-md-6">	
+			<input type="text" name="parent'sname" required><br></div>
+		<div class="col-md-6 a">
+			Name of an Examination</div>
+		<div class="col-md-6">	
+			<select name="exam"><!--Drop down list to select the exam -->
+				<option value="engineer">Engineering Examination</option>
+				<option value="Medical">Medical Examination</option>
+				<option value="Art">Art Examination</option>
+				<option value="Commerce">Commerce Examination</option>
+			</select>
+		</div>
+		
+		<div class="col-md-6 a">
+			Citizenship</div>
+		<div class="col-md-6">	
+			<input type="text" name="citizenship"></div>
+	
+		<div class="col-md-6 a">
+			Address</div><!-- Address inclusion -->
+		<div class="col-md-6">	
+			<input type="text" name="line1"></div>
+		<div class="col-md-6">	
+			</div>
+		<div class="col-md-6">	
+			<input type="text" name="city" placeholder="City"></div>
+		<div class="col-md-6">	
+			</div>
+		<div class="col-md-6">	
+			<input type="text" name="state/county" placeholder="State/County"></div>
+		<div class="col-md-6 a">
+			Country</div>
+		<div class="col-md-6">	
+			<input type="text" name="country" id="c" onblur="Country();" required><span id="kirthi3"></div><br><!-- Validation of the country name-->
+	
+		<div class="col-md-6 a">
+			Exam Center</div><!--Drop down list to select the exam center-->
+		<div class="col-md-6">	
+			<select name="center">
+				<option value="a">Bangalore</option>
+				<option value="b">London</option>
+				<option value="c">Moscow</option>
+				<option value="d">New York</option>		
+				<option value="e">Paris</option>
+				<option value="f">Seoul</option>		
+				<option value="g">Shanghai</option>
+				<option value="h">Singapore</option>
+				<option value="i">Sydney</option>
+				<option value="j">Tokyo</option><br>
+			</select>
+		</div>
+		<div class="col-md-6 a">
+			Exam fee in USD</div><!--Constant exam fee -->
+		<div class="col-md-6">	
+			<input type="text" name="readonly" value="$50" readonly></div>
+	
+		<div class="col-md-6 a">
+		Payment mode</div>
+		<div class="col-md-6">
+		<a href="https://www.paypal.com/"> <!-- Redirecting to Paypal to pay the exam fee-->
+			  <img 
+				 src="https://goo.gl/G3kHdU"/>
+		</a>
+		</div>
+	</div>
+</form>
+<p>Thanks for spending your time, Pal.Have a great life ahead.</p>
+	
+</body>
+</html>
